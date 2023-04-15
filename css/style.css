@@ -40,7 +40,7 @@ input[type=text] {
   }
 
 main {
-    /* height: 70vh; */
+    height: 70vh;
     /* width: 70%;  */
     margin-left: 2%;
     margin-top: 5%;
@@ -49,13 +49,13 @@ main {
     padding: 16px;
 }
 
-/* main::-webkit-scrollbar {
+main::-webkit-scrollbar {
     display: none;
 }
 
 main {
     scrollbar-width: none;
-} */
+}
 
 aside {
     /* display: inline-block; */
@@ -386,7 +386,7 @@ footer {
 
 .songs-queue-all {
     margin-top: 5%;
-    height: auto;
+    height: 70vh;
     overflow-y: auto;
 }
 
@@ -411,13 +411,13 @@ footer {
     justify-content: right;
 }
 
-/* .songs-queue-all::-webkit-scrollbar {
+.songs-queue-all::-webkit-scrollbar {
     display: none;
 }
 
 .songs-queue-all {
     scrollbar-width: none;
-} */
+}
 
 /* Aside section for songs queue end */
 
